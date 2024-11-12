@@ -1,10 +1,8 @@
 function loadContact() {
   const content = document.getElementById('content');
   
-  // Clear current content
   content.innerHTML = '';
 
-  // Create a div for the contact content
   const contactDiv = document.createElement('div');
   
   const headline = document.createElement('h2');

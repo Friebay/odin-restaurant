@@ -1,10 +1,8 @@
 function loadMenu() {
     const content = document.getElementById('content');
     
-    // Clear current content
     content.innerHTML = '';
-  
-    // Create a div for the menu content
+
     const menuDiv = document.createElement('div');
     
     const headline = document.createElement('h2');
