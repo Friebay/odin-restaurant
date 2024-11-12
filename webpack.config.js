@@ -14,7 +14,7 @@ module.exports = {
     open: true,
     hot: true,
   },
-  mode: 'development',
+  mode: 'production',
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'src', 'template.html'),
